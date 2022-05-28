@@ -12,7 +12,7 @@ router.get('/', (req, res) => {
       attributes: [
         'product_name',
         'price',
-        'staock',
+        'stock',
         'category_id'
       ]
     }
@@ -36,7 +36,7 @@ router.get('/:id', (req, res) => {
       attributes: [
         'product_name',
         'price',
-        'staock',
+        'stock',
         'category_id'
       ]
     }
